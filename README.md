@@ -95,8 +95,3 @@
 <code>pip install pandas matplotlib seaborn statsmodels scikit-learn</code>
 <p>Następnie uruchom skrypt:</p>
 <code>python projekt_analiza_hbomax.py</code>
-
-<hr>
-<p align="center">
-  <i>Projekt wykonany w ramach analizy danych i prognozowania szeregów czasowych.</i>
-</p>
