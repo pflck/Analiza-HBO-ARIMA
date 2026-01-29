@@ -11,9 +11,13 @@
   Celem projektu jest analiza historycznych trendów wydawniczych platformy HBO oraz zbudowanie modelu matematycznego <b>ARIMA (AutoRegressive Integrated Moving Average)</b>, który pozwala na prognozowanie liczby nowych tytułów w nadchodzących latach. Projekt łączy w sobie aspekty inżynierii danych, statystyki opisowej oraz uczenia maszynowego w analizie szeregów czasowych.
 </p>
 
+<p>
+  Zdecydowałam się poszukać danych z platformy do streamowania filmów, ponieważ jest to dla mnie forma spędzania wolnego czasu i byłam ciekawa jakie dane są dostępne na ten temat oraz czy można przewidzieć ile filmów zostanie wydanych w następujących latach. Okazało się, że nie jest zbyt łatwo znaleźć takie dane, które by pasowały do analizy, jednak finalnie stanęło na datasecie z Hbo i Hbo Max.
+</p>
+
 <h2>Dataset</h2>
 <p>
-  Wykorzystany zbiór danych, pochodzący z platformy Kaggle (<i>HBO and HBO Max Content Dataset</i>), stanowi kompleksowe zestawienie biblioteki multimedialnej obu serwisów. Dane zawierają metadane tysięcy produkcji, obejmując zarówno klasyczne tytuły <b>HBO</b>, jak i nowszą ofertę <b>HBO Max</b>. 
+  Wykorzystany zbiór danych pochodzi z platformy Kaggle (<i>HBO and HBO Max Content Dataset https://www.kaggle.com/datasets/thedevastator/hbo-and-hbo-max-content-dataset/data </i>), stanowi kompleksowe zestawienie biblioteki multimedialnej obu serwisów. Dane zawierają metadane tysięcy produkcji, obejmując zarówno klasyczne tytuły <b>HBO</b>, jak i nowszą ofertę <b>HBO Max</b>. 
 </p>
 <p>
   Każdy rekord w zbiorze opisany jest szeregiem atrybutów, takich jak:
